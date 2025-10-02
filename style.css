@@ -1,0 +1,39 @@
+body {
+font-family: Arial, sans-serif;
+background: #2e2e2e;
+}
+
+h1 {
+text-align: center;
+color: #ffffff;
+}
+
+ul.tabla {
+list-style: none;
+padding: 0;
+margin: auto;
+width: 95%;
+}
+
+ul.tabla li {
+border: 1px solid #aaa;
+padding: 8px;
+margin-bottom: 5px;
+background: white;
+}
+
+ul.tabla li.encabezado {
+background: #4A90E2;
+color: white;
+font-weight: bold;
+text-align: center;
+}
+
+ul.tabla li span {
+color: #4A90E2;
+font-weight: bold;
+}
+
+ul.tabla li:hover {
+background: #e0f0ff;
+}
